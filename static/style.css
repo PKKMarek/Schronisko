@@ -1,3 +1,4 @@
+/* #region Homepage*/
 :root {
     --color-1: #186cb8;
     --color-2: #2a9a9f;
@@ -34,8 +35,59 @@ div
 
 }  
 
+/* #endregion Homepage*/
+
 body
 {
 background: #333;
 
+
+
 }
+
+nav {
+  border-bottom: 1px solid darkorange;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+li {
+  padding:0 3em 0em 3em;
+}
+
+
+/* #region  Linki*/
+
+a:link {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* #endregion Linki*/
+
